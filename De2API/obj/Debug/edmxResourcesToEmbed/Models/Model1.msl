@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBTTModelStoreContainer" CdmEntityContainer="DBTTEntities">
+    <EntitySetMapping Name="ThoiTietTrongNgays">
+      <EntityTypeMapping TypeName="DBTTModel.ThoiTietTrongNgay">
+        <MappingFragment StoreEntitySet="ThoiTietTrongNgay">
+          <ScalarProperty Name="Gio" ColumnName="Gio" />
+          <ScalarProperty Name="MaKhuVuc" ColumnName="MaKhuVuc" />
+          <ScalarProperty Name="NhietDo" ColumnName="NhietDo" />
+          <ScalarProperty Name="DoAm" ColumnName="DoAm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
